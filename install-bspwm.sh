@@ -33,18 +33,12 @@ git clone https://github.com/zsh-users/zsh-completions.git $HOME/.zsh/zsh-comple
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.zsh/zsh-autosuggestions
 chsh -s /bin/zsh
 
-# neovim (nvchad)
-echo "Configuring nvim"
-mkdir $HOME/.config/nvim/
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 
 # dotfiles
 git clone https://github.com/ltlis/dots
 cd dots
 
-cp -r .config $HOME/
-cp -r .themes $HOME/
-cp -r .icons  $HOME/
+cp -r config $HOME/.config
 cp -r .zshrc  $HOME/
 
 echo "Installation complete"
