@@ -44,7 +44,7 @@ cd $HOME
 git clone https://github.com/ltlis/dots
 cd dots
 
-cp -r config $HOME/.config
+cp -r .config $HOME/
 cp -r .zshrc $HOME/
 cp -r .fonts $HOME/
 
