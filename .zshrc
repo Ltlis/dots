@@ -2,7 +2,6 @@
 export EDITOR="nvim"
 export TERM="kitty"
 export VISUAL="nvim"
-export BAT_THEME="Catppuccin-mocha"
 
 # aliases
 alias polkit="/usr/lib/polkit-gnome/./polkit-gnome-authentication-agent-1"
@@ -12,7 +11,6 @@ alias vim="nvim"
 alias ls="eza --icons --tree --level=1"
 
 # configs
-alias i3c="vim ~/.config/i3/config"
 alias kc="vim ~/.config/kitty/kitty.conf"
 alias zc="vim ~/.zshrc"
 alias pc="vim ~/.config/picom/picom.conf"
@@ -30,7 +28,6 @@ alias update="sudo pacman -Syu"
 alias grep="grep --color=auto"
 alias df="df -h"
 alias p="sudo pacman"
-alias drive="cd /mnt/TOSHIBA/ && ls"
 alias list="pacman -Qe"
 alias listn="pacman -Qq | wc -l"
 alias picom="picom --backend glx -b"
@@ -40,8 +37,6 @@ alias pics="cd ~/Pictures/ && ls"
 alias down="cd ~/Downloads/ && ls"
 alias listsinks="pactl list sinks short | cut -f2"
 alias listsources="pactl list sources short | cut -f2"
-alias toipe="~/Downloads/toipe/toipe"
-alias bookmarks="vim ~/Documents/neorg/bookmarks.norg"
 
 # kill
 alias kp="pkill polybar"
