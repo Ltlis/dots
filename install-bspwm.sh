@@ -46,7 +46,7 @@ cd dots
 
 cp -r .config $HOME/
 cp -r .zshrc $HOME/
-cp -r .fonts $HOME/
+cp -r fonts $HOME/.fonts
 
 echo "Installation complete"
 echo
