@@ -22,7 +22,7 @@ cd $HOME
 # needed packages
 echo "Installing packages"
 sleep 1
-yay -S bspwm nvidia amd-ucode gcc gvfs gvfs-mtp htop imagemagick kitty neofetch mpv lxappearance polkit-gnome qbittorrent rofi swappy dunst thunar thunar-volman thunar-archive-plugin fileroller unrar unzip  webp-pixbuf-loader pipewire wireplumber pipewire-pulse xclip yt-dlp zsh steam ttf-jetbrains-mono-nerd man pavucontrol firefox plocate tumbler feh bat eza starship picom-ftlabs-git 
+yay -S --noconfirm bspwm nvidia amd-ucode gcc gvfs gvfs-mtp htop imagemagick kitty neofetch mpv lxappearance polkit-gnome qbittorrent rofi swappy dunst thunar thunar-volman thunar-archive-plugin fileroller unrar unzip  webp-pixbuf-loader pipewire wireplumber pipewire-pulse xclip yt-dlp zsh steam ttf-jetbrains-mono-nerd man pavucontrol firefox plocate tumbler feh bat eza starship picom-ftlabs-git 
 
 # zsh
 echo "Configuring zsh"
