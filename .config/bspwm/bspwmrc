@@ -22,9 +22,6 @@ bspc rule -a Lxappearance state=floating
 # startup 
 polybar -r & 
 picom --backend glx -b &  
-feh --bg-fill ~/Pictures/Wallpapers/tlouanime.png &
-xrdb ~/.Xresources &
-greenclip daemon &
 xset r rate 300 50
 
 bspc config focus_follows_pointer     true
