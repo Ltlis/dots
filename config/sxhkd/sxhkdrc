@@ -6,10 +6,10 @@ super + Return
 
 # rofi 
 super + d
-	~/.config/rofi-X11/launchers/type-1/launcher.sh
+	~/.config/rofi/launchers/type-1/launcher.sh
 
 super + p 
-  ~/.config/rofi-X11/powermenu/type-2/powermenu.sh
+  ~/.config/rofi/powermenu/type-2/powermenu.sh
 
 super + ctrl + s
   ~/.config/scripts/rofi-beats-linux
