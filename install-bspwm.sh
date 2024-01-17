@@ -33,6 +33,12 @@ git clone https://github.com/zsh-users/zsh-completions.git $HOME/.zsh/zsh-comple
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.zsh/zsh-autosuggestions
 chsh -s /bin/zsh
 
+# rofi themes (adi1090x)
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi
+chmod +x setup.sh
+./setup.sh
+cd $HOME
 
 # dotfiles
 git clone https://github.com/ltlis/dots
